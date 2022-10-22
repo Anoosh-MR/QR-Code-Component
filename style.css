@@ -1,5 +1,5 @@
 .main{
-    height: 100vh;
+    height: 100%;
     background-color:#d5e1ef;
     display: flex;
     align-items: center;
@@ -46,13 +46,9 @@
     color: hsl(220, 15%, 55%)
 }
 
-@media only screen and (max-width: 600px) {
-   
-   .card {
-       height: 430px;
-       width:280px;
+@media only screen and (min-width: 600px) {
+   .main{
+    width: 50%;
    }
-   .text{
-    margin:20px 30px;
-   }
+  
 }
